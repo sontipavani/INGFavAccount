@@ -15,9 +15,13 @@
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
-		<java.version>1.8</java.version>
-	</properties>
-
+	   <java.version>1.8</java.version>
+           <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+           <sonar.host.url>http://34.72.104.220:9080</sonar.host.url>
+           <sonar.login>admin</sonar.login>
+           <sonar.password>admin123</sonar.password>
+  	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -86,7 +90,8 @@
         <distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
-    <url>http://13.126.219.164:8081/nexus/content/repositories/nexus/</url>
+    <!-- <url>http://13.126.219.164:8081/nexus/content/repositories/nexus/</url> -->
+    <url>http://34.72.104.220:8081/repository/maven-snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 
