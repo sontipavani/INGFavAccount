@@ -88,6 +88,7 @@
 	</dependencies>
 	
 	<!-- only for Azure DevOps - Used the below tag for feeds -->
+	<repositories>
 	<repository>
           <id>favacc_feed</id>
           <url>https://pkgs.dev.azure.com/tgudla184/favacc/_packaging/favacc_feed/maven/v1</url>
@@ -98,7 +99,7 @@
             <enabled>true</enabled>
           </snapshots>
         </repository>
-	
+	</repositories>
 	<!-- only for Azure DevOps - Used the below tag for feeds -->
   <distributionManagement>
      <repository>
