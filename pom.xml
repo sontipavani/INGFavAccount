@@ -87,12 +87,43 @@
 		</dependency>
 	</dependencies>
 	
-        <distributionManagement>
-  <snapshotRepository>
+	<!-- only for Azure DevOps - Used the below tag for feeds -->
+	<repository>
+          <id>favacc_feed</id>
+          <url>https://pkgs.dev.azure.com/tgudla184/favacc/_packaging/favacc_feed/maven/v1</url>
+          <releases>
+              <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+	
+	<!-- only for Azure DevOps - Used the below tag for feeds -->
+  <distributionManagement>
+     <repository>
+      <id>favacc_feed</id>
+      <url>https://pkgs.dev.azure.com/tgudla184/favacc/_packaging/favacc_feed/maven/v1</url>
+      <layout>default</layout>
+      <name>OMD Maven Release Feed</name>
+      <uniqueVersion>true</uniqueVersion>
+    </repository>
+    <snapshotRepository>
+      <id>favacc_feed</id>
+      <url>https://pkgs.dev.azure.com/tgudla184/favacc/_packaging/favacc_feed/maven/v1</url>
+      <layout>default</layout>
+      <name>OMD Maven Snapshot Feed</name>
+      <uniqueVersion>true</uniqueVersion>
+    </snapshotRepository>
+	  
+  <!-- Non Azure DevOps - Standard Repostiory -->
+	  
+  <!-- <snapshotRepository>
     <id>nexus</id>
-    <!-- <url>http://13.126.219.164:8081/nexus/content/repositories/nexus/</url> -->
-    <url>http://34.72.104.220:8081/repository/maven-snapshots</url>
-  </snapshotRepository>
+    <!-- <url>http://13.126.219.164:8081/nexus/content/repositories/nexus/</url> Nexus2-->
+    <!-- <url>http://34.72.104.220:8081/repository/maven-snapshots</url> -- Nexus3 -->
+  <!-- </snapshotRepository> -->
+	  
 </distributionManagement>
 
 
