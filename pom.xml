@@ -93,9 +93,10 @@
   <distributionManagement>	  
    <snapshotRepository>
       <id>nexus</id>
-      <!-- <url>http://13.126.219.164:8081/nexus/content/repositories/nexus/</url> Nexus2-->
+      <!-- Nexus2 -->
+      <url>http://34.72.104.220:8081/nexus/content/repositories/snapshots</url>
       <!-- Nexus3 -->
-      <url>http://34.72.104.220:8081/repository/maven-snapshots</url> 
+      <!-- <url>http://34.72.104.220:8081/repository/maven-snapshots</url>  -->
    </snapshotRepository>	  
   </distributionManagement>
 
