@@ -117,7 +117,7 @@
       <name>OMD Maven Snapshot Feed</name>
       <uniqueVersion>true</uniqueVersion>
     </snapshotRepository>
-
+   </distributionManagement>
 	  
   <!-- Non Azure DevOps - Standard Repostiory -->
   <!-- <distributionManagement>	  -->
