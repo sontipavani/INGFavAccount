@@ -112,7 +112,7 @@
     </repository>
     <snapshotRepository>
       <id>favacc_feed</id>
-      <url>https://pkgs.dev.azure.com/tgudla184/favacc/_packaging/favacc_feed/maven/v1</url>
+      <url>https://pkgs.dev.azure.com/senthilAlagarsamy/favacc/_packaging/favacc_feed/maven/v1</url>
       <layout>default</layout>
       <name>OMD Maven Snapshot Feed</name>
       <uniqueVersion>true</uniqueVersion>
