@@ -119,7 +119,7 @@
     </snapshotRepository>
    </distributionManagement>
 	  
-  <!-- Non Azure DevOps - Standard Repostiory -->
+  <!-- Non Azure DevOps add- Standard Repostiory -->
   <!-- <distributionManagement>	  -->
   <!-- <snapshotRepository> -->
        <!-- <id>nexus</id> -->
