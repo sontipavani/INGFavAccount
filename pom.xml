@@ -8,6 +8,15 @@
 		<version>2.1.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	
+	<pluginRepositories>
+            <pluginRepository>
+                <id>repository.spring.release</id>
+                <name>Spring GA Repository</name>
+                <url>https://repo.spring.io/plugins-release/</url>
+            </pluginRepository>
+       </pluginRepositories>
+	
 	<groupId>com.hcl</groupId>
 	<artifactId>IngAccounts</artifactId>
 	<version>0.0.10-SNAPSHOT</version>
