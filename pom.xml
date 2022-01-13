@@ -105,14 +105,14 @@
   <distributionManagement>
      <repository>
       <id>favacc_feed</id>
-      <url>https://pkgs.dev.azure.com/senthilAlagarsamy/azartifact/_packaging/favacc_feed/maven/v1</url>
+      <url>https://pkgs.dev.azure.com/pipelines-test1/azartifact/_packaging/favacc_feed/maven/v1</url>
       <layout>default</layout>
       <name>OMD Maven Release Feed</name>
       <uniqueVersion>true</uniqueVersion>
     </repository>
     <snapshotRepository>
       <id>favacc_feed</id>
-      <url>https://pkgs.dev.azure.com/senthilAlagarsamy/azartifact/_packaging/favacc_feed/maven/v1</url>
+      <url>https://pkgs.dev.azure.com/pipelines-test1/azartifact/_packaging/favacc_feed/maven/v1</url>
       <layout>default</layout>
       <name>OMD Maven Snapshot Feed</name>
       <uniqueVersion>true</uniqueVersion>
