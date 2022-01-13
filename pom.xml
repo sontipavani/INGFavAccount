@@ -91,7 +91,7 @@
 	<repositories>
 	<repository>
           <id>favacc_feed</id>
-          <url>https://pkgs.dev.azure.com/senthilAlagarsamy/azartifact/_packaging/favacc_feed/maven/v1</url>
+          <url>https://pkgs.dev.azure.com/pipelines-test1/azartifact/_packaging/favacc_feed/maven/v1</url>
           <releases>
               <enabled>true</enabled>
           </releases>
